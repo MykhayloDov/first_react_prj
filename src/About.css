@@ -1,0 +1,16 @@
+body {
+    background-color: #55a4a6;
+}
+
+.hiddenBlock {
+    display: none;
+}
+
+.shownBlock {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 20%;
+
+}
