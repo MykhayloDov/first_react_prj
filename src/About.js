@@ -2,9 +2,11 @@ import React, {useState} from "react";
 import "./About.css"
 import Tapok from "./tapok.jpg"
 
+
 export default function About() {
     let hiddenBlock = "hiddenBlock"
     const [imgBlock, setState] = useState(false);
+
 
     return (
         <div>
@@ -18,6 +20,10 @@ export default function About() {
                     <img src={Tapok} alt="tapok"/>
             </div>
         </div>
-)
-}
+)}
 
+async function doSomething() {
+    let promise = new Promise((resolve, reject) => {
+       setTimeout(() => resolve("Do something!"), 2000)
+    });
+};
