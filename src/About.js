@@ -22,8 +22,3 @@ export default function About() {
         </div>
 )}
 
-async function doSomething() {
-    let promise = new Promise((resolve, reject) => {
-       setTimeout(() => resolve("Do something!"), 2000)
-    });
-};

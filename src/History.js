@@ -30,7 +30,5 @@ export default function Example() {
                 Click here to remove
             </button>
         </div>
-
     )
-
 }
